@@ -1,0 +1,5 @@
+#Whether to force clients to accept resource packs or get kicked.
+require-resource-packs: false
+
+#Custom prompt to show when informing the player of resource packs to be loaded.
+custom-prompt: ""

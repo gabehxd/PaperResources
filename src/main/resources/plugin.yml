@@ -1,0 +1,13 @@
+name: PaperResources
+version: '1.0'
+main: computer.livingroom.paperesources.PaperResources
+api-version: '1.21'
+authors: [ gabeh ]
+
+commands:
+  paperresources:
+    permission: paperresources.command
+
+permissions:
+  paperresources.command:
+    default: op
