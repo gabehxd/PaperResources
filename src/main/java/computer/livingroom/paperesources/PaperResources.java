@@ -36,8 +36,8 @@ public final class PaperResources extends JavaPlugin {
 
     @Override
     public void onEnable() {
-        //Features we are using are only supported since 1.21.3!
-        if (!Utils.isRunningMinecraft(1, 21, 3)) {
+        //Features we are using are only supported since 1.20.3!
+        if (!Utils.isRunningMinecraft(1, 20, 3)) {
             this.getLogger().severe("Only Minecraft versions 1.21.3 and above are supported!");
             Bukkit.getPluginManager().disablePlugin(this);
             return;
