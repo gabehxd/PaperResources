@@ -1,5 +1,5 @@
 name: PaperResources
-version: '1.0.1'
+version: '1.0.0'
 main: computer.livingroom.paperesources.PaperResources
 api-version: '1.21'
 authors: [ gabeh ]
