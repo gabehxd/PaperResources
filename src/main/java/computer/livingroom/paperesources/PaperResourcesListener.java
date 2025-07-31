@@ -8,7 +8,6 @@ import org.bukkit.event.player.PlayerJoinEvent;
 public class PaperResourcesListener implements Listener {
     @EventHandler(priority = EventPriority.MONITOR, ignoreCancelled = true)
     public void onPLayerJoin(PlayerJoinEvent event) {
-        if (PaperResources.getInstance().getResourceRequest() != null)
-            event.getPlayer().sendResourcePacks(PaperResources.getInstance().getResourceRequest());
+        PaperResources.getInstance().getResourcesManager().sendRequestToPlayer(event.getPlayer());
     }
 }
