@@ -54,11 +54,11 @@ public final class PaperResources extends JavaPlugin {
 
     public static class Config {
         public static String getPrompt() {
-            return PaperResources.getInstance().getConfig().getString("prompt", "");
+            return PaperResources.getInstance().getConfig().getString("custom-prompt", "");
         }
 
         public static boolean isRequired() {
-            return PaperResources.getInstance().getConfig().getBoolean("required", false);
+            return PaperResources.getInstance().getConfig().getBoolean("require-resource-packs", false);
         }
     }
 }
