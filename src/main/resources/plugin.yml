@@ -1,8 +1,9 @@
 name: PaperResources
-version: '1.0.1'
+version: '2.0.1'
 main: computer.livingroom.paperesources.PaperResources
 api-version: '1.21'
 authors: [ gabeh ]
+load: STARTUP
 
 commands:
   paperresources:
