@@ -3,6 +3,7 @@ version: '2.0.1'
 main: computer.livingroom.paperesources.PaperResources
 api-version: '1.21'
 authors: [ gabeh ]
+website: https://modrinth.com/project/EZ6Gm6vE
 load: STARTUP
 
 commands:
